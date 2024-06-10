@@ -17,7 +17,6 @@ model:
   use_grad_checkpoint_llm: True
   max_context_len: 3600
 
-
 datasets:
   video_chatgpt: #99378 row  - 13224 video
     batch_size: 4
@@ -47,7 +46,7 @@ run:
   output_dir: "training_output/pretrained_video_instruct/llama2"
 
   amp: True
-  resume_ckpt_path: null
+  resume_ckpt_path: "/content/MiniGPT4-video/pretrained_models/video_llama_checkpoint_last.pth"
 
   evaluate: False
   train_splits: ["train"]

@@ -8,7 +8,7 @@ model:
   image_size: 224
   end_sym: "</s>"
   llama_model: "meta-llama/Llama-2-7b-chat-hf"
-  ckpt: "checkpoints/image_llama2_checkpoint.pth" # set the checkpoint to start the training from
+  ckpt: "/content/MiniGPT4-video/pretrained_models/video_llama_checkpoint_last.pth" # set the checkpoint to start the training from
   use_grad_checkpoint: True
   chat_template: True
   lora_r: 64
@@ -59,7 +59,7 @@ run:
   output_dir: "training_output/assembly_pretrain/llama2"
 
   amp: True
-  resume_ckpt_path: "MiniGPT4-video/checkpoint/"model_name_here"
+  resume_ckpt_path: "/content/MiniGPT4-video/pretrained_models/video_llama_checkpoint_last.pth"
 
   evaluate: False
   train_splits: ["train"]
