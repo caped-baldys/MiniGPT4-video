@@ -1,0 +1,37 @@
+[
+    {
+        "video_id": "1J4dJyqg2vA_0",
+        "q": "Describe this video.",
+        "a": "First, an operator brings in and opens the engine block, preparing it for assembly. Then, the operator performs a short block assembly, positioning pistons near the main engine block. Later, the operator twists the crankshaft into place. Finally, the operator checks tolerances using a gauge, ensuring precise quality control."
+    },
+    {
+        "video_id": "1J4dJyqg2vA_1",
+        "q": "Provide a concise depiction of this video.",
+        "a": "First, the operator adjusts a gauge to measure tolerance. Next, the operator carefully positions the engine, followed by using a tool to slide the piston assembly into the cylinder. The operator oils the piston assembly to ensure smoother insertion. Finally, the operator checks markings for assembly direction before placing the cylinder head cover, completing this meticulous process."
+    },
+    {
+        "video_id": "1J4dJyqg2vA_2",
+        "q": "Present a description of this video.",
+        "a": "First, the operator oils the crank and piston assembly to ensure smoother piston insertion. Next, the operator oils and attaches the connecting rod to the crankshaft. Then, the operator inserts a jig to prevent rotation during assembly. Using a screwdriver, the operator securely tightens the crank pin screws. Subsequently, the operator rotates the crank with the jigs to check the assembly. Finally, the operator tightens the bolts using the torque gun, and the head is placed back on the block assembly."
+    },
+    {
+        "video_id": "1J4dJyqg2vA_4",
+        "q": "Summarize this video.",
+        "a": "First, the operator drops some parts into the main assembly. Then, the operator pushes the engine assembly bench and positions it. Finally, the operator lowers the torque gun to torque the bolts of the head assembly."
+    },
+    {
+        "video_id": "1J4dJyqg2vA_5",
+        "q": "Generate video caption:",
+        "a": "First, the operator mounts the exhaust manifolds in the inner bank of the engine. Next, the operator scans the manifold barcode. Then, the operator lowers the screw drive and torques the screws on the manifolds. After that, the operator removes the manifold covers. Finally, the operator mounts heat shields over the manifolds to avoid overheating of the turbochargers."
+    },
+    {
+        "video_id": "1J4dJyqg2vA_6",
+        "q": "Generate video description:",
+        "a": "First, the operator mounts the turbo on the exaust manifold for forced aspiration then the operator tightens the screws and repeats it again for the other turbo, then the operator connects the hoses and cables for cold bench test."
+    },
+    {
+        "video_id": "clip_5min_38sec - Trim",
+        "q": "Illustrate what is happening in the video.",
+        "a": "First, the operator takes out the crank pin and puts it onto the main engine block. After placing the pins, the operator pushes a button to call the oiling machine, which oils the engine block. Then, the operator places the crankshaft on the engine block with the help of a machine. The operator adjusts the crankshaft to the right position and puts a gasket at the front of the crankshaft. After that, the operator oils the engine again. Next, the operator places all the bearing caps and bolts on the crankshaft. Finally, the operator pushes the main engine forward in the assembly line."
+    }
+]
