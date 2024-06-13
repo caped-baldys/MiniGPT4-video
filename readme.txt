@@ -62,7 +62,7 @@ datasets:
 
     build_info: # this is the information needed to build the dataset
       # Be careful not to append minus sign (-) before split to avoid itemizing
-      ann_paths: [path/to/annotations_json] # list of paths to annotation files
+      ann_paths: [path/to/annotations_json] # list of paths to annotation files # Not sure if the annotaions needs to be a json file or many json files
       vis_root: path/to/videos_folder
       subtitles_path:	2 path/to/subtitles_folder
       model_name: 'llama2' # Language Model Name (available: llama2, mistral)

@@ -10,7 +10,7 @@ datasets:
 
     build_info: # this is the information needed to build the dataset
       # Be careful not to append minus sign (-) before split to avoid itemizing
-      ann_paths: [path/to/annotations_json] # list of paths to annotation files
+      ann_paths: [MiniGPT4-video/MiniGPT4-video-datasets/data.json] # list of paths to annotation files
       vis_root: MiniGPT4-video/MiniGPT4-video-datasets/
       subtitles_path: path/to/subtitles_folder #no subtitles
       model_name: "llama2" # Language Model Name (available: llama2, mistral)

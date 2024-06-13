@@ -21,15 +21,15 @@ from minigpt4.datasets.datasets.video_datasets import CMDVideoDataset, WebVidDat
 from minigpt4.datasets.datasets.cot import CoTDataset
 from minigpt4.datasets.datasets.unnatural_instruction import UnnaturalDataset
 from minigpt4.datasets.datasets.caption_reasoning import CaptionReasonDataset
-from minigpt4.datasets.datasets.aok_vqa_reasoning_datasets import AOKVQAReasoningDataset
+from minigpt4.datasets.datasets.video_datasets import Video_loader_template #Dataset Loader
 from minigpt4.datasets.datasets.paint_dataset import PaintPTCOCODataset, PaintRLCOCODataset, PaintPixelCOCODataset, SegReferCOCODataset, PaintLanRLOpaqueCOCODataset
 from minigpt4.datasets.datasets.nav_dataset import NavR2RDataset
 
 @registry.register_builder("yifan_reasoning")
 class LlavaDetailBuilder(BaseDatasetBuilder):
-    train_dataset_cls = AOKVQAReasoningDataset
+    train_dataset_cls = Video_loader_template
     DATASET_CONFIG_DICT = {
-        "default": "configs/datasets/aokvqa_reasoning/defaults.yaml",
+        "default": "MiniGPT4-video/minigpt4/configs/datasets/assembly/default.yaml",
     }
 
     def build_datasets(self):
