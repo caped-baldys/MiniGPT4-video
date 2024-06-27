@@ -49,7 +49,7 @@ class MiniGPT4_llama_v2(Blip2Base):
         prompt_path="",
         prompt_template="",
         max_txt_len=32,
-        low_resource=False,  # use 8 bit and put vit in cpu
+        low_resource=True,  # use 8 bit and put vit in cpu
         end_sym='\n',
         lora_r = 8,
         lora_target_modules = ["q_proj","v_proj"],
@@ -119,10 +119,10 @@ class MiniGPT4_llama_v2(Blip2Base):
 
         print('Loading LLAMA')
 
-
+        hf_token = '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'
         self.B_SYS, self.E_SYS = "<<SYS>>\n", "\n<</SYS>>\n\n"
 
-        self.llama_tokenizer = LlamaTokenizer.from_pretrained(llama_model,use_fast=False)  #
+        self.llama_tokenizer = LlamaTokenizer.from_pretrained(llama_model,use_fast=False, use_auth_token=hf_token)  #
         self.llama_tokenizer.pad_token = "$$"
 
         self.system_prompt = system_prompt
